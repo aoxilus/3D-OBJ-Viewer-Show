@@ -1,3 +1,7 @@
+/**
+ * annotations.js — two-click 3D arrows on the model (ArrowHelper).
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119/build/three.module.js';
 
 let scene, camera, renderer, controls;

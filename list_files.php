@@ -1,4 +1,8 @@
 <?php
+/**
+ * list_files.php — JSON array of .obj names in object_files/.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 $directory = 'object_files/';  // Directory where your .obj files are located
 $files = array();
 

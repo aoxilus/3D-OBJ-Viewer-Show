@@ -1,3 +1,7 @@
+/**
+ * marker.js — red translucent sphere marker parented to the loaded OBJ.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119/build/three.module.js';
 
 // Create a smaller, more transparent marker

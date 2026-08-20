@@ -1,3 +1,7 @@
+/**
+ * textures.js — swap mesh materials: gray, wireframe, sky-blue metal.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119/build/three.module.js';
 
 export function applyPlainMaterial(object) {

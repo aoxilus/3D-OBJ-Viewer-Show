@@ -1,4 +1,9 @@
 <?php
+/**
+ * save_slide.php — append one slide (camera, marker, description) to slides.json.
+ * No auth: run only on a trusted PHP host.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 // Path to the JSON file
 $jsonFilePath = 'slides.json';
 

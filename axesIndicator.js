@@ -1,3 +1,7 @@
+/**
+ * axesIndicator.js — RGB XYZ ArrowHelpers attached to the model.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119/build/three.module.js';
 
 export function createAxesIndicator(object) {

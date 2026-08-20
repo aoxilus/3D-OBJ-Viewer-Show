@@ -1,0 +1,5 @@
+# Local / server junk — never publish
+viewer/error_log
+*.log
+.DS_Store
+Thumbs.db

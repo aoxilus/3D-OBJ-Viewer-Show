@@ -1,4 +1,8 @@
 <?php
+/**
+ * load_slides.php — return slides.json for the slideshow viewer (no cache).
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 // Set the content type to JSON
 header('Content-Type: application/json');
 
@@ -11,7 +15,7 @@ header('Expires: 0'); // Proxies
 $slidesFile = '../slides.json'; // Adjust the path if needed
 
 // Log the path being accessed (for debugging)
-error_log('Fetching slides.json from: ' . realpath($slidesFile)); // Logs the actual path used
+error_log('Fetching slides.json');
 
 // Check if the file exists and is readable
 if (file_exists($slidesFile) && is_readable($slidesFile)) {
@@ -22,7 +26,7 @@ if (file_exists($slidesFile) && is_readable($slidesFile)) {
     echo $jsonData;
 } else {
     // Log the error if the file cannot be found or read
-    error_log('Failed to load slides.json from: ' . realpath($slidesFile));
+    error_log('Failed to load slides.json');
 
     // Return an error response
     echo json_encode(['error' => 'Unable to load slides.json']);

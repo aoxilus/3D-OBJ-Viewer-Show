@@ -1,3 +1,7 @@
+/**
+ * viewer.js — playback saved slides (camera + arrows) from slides.json.
+ * 🥑 by aoxilus · CC BY-NC-SA 4.0
+ */
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119/build/three.module.js';
 import { OBJLoader } from 'https://cdn.jsdelivr.net/npm/three@0.119/examples/jsm/loaders/OBJLoader.js';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.119/examples/jsm/controls/OrbitControls.js';
